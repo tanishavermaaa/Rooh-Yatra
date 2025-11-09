@@ -1,14 +1,11 @@
-<div align="center">
 # ✨ Rooh Yatra - A Travel Story (EZ Labs Assignment)
 
 This is a single-page responsive web application built with **React** and **CSS Modules**. It was created to fulfill the EZ Labs assignment, focusing on recreating a Figma design, implementing a live API, and ensuring full responsiveness.
 
 The project's theme is a travel blog documenting a journey across India, aiming to inspire discovery and passion.
 
-**[🚀 View the Live Demo Here](https://www.google.com/search?q=https://your-deployment-link.vercel.app)**
-*(Replace with your Vercel link)*
+**[🚀 View the Live Demo Here]((https://rooh-yatra.netlify.app/))**
 
-\</div\>
 
 -----
 
