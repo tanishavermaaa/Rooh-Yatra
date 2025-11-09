@@ -1,3 +1,6 @@
+
+<img width="1335" height="634" alt="Screenshot 2025-11-09 190037" src="https://github.com/user-attachments/assets/3e9581d5-8540-4211-bfb4-2cc02d8ecddf" />
+
 # ✨ Rooh Yatra - A Travel Story (EZ Labs Assignment)
 
 This is a single-page responsive web application built with **React** and **CSS Modules**. It was created to fulfill the EZ Labs assignment, focusing on recreating a Figma design, implementing a live API, and ensuring full responsiveness.
