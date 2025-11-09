@@ -1,0 +1,70 @@
+/* src/components/Mission.module.css */
+
+.missionSection {
+  padding: 5rem 0; /* 80px top/bottom */
+  background-color: #efeecf; /* White background */
+}
+
+.grid {
+  display: flex;
+  flex-direction: column; /* Mobile-first: stack vertically */
+  align-items: center;
+  gap: 3rem; /* 48px gap between text and image */
+}
+
+.content {
+  flex: 1; /* Take up half the space on desktop */
+  text-align: left;
+  /* On mobile, text is stacked, so center it */
+  text-align: center; 
+}
+
+.title {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 700;
+  color: #111827; /* Dark gray */
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+.text {
+  font-size: 1.125rem; /* 18px */
+  color: #4B5563; /* Medium gray */
+  line-height: 1.7;
+}
+
+.text:not(:last-child) {
+  margin-bottom: 1rem; /* Space between paragraphs */
+}
+
+.imageWrapper {
+  flex: 1; /* Take up the other half on desktop */
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  max-height: 450px; /* Stop image from being too tall */
+  height: auto;
+  object-fit: cover; /* Crop image nicely */
+  border-radius: 0.5rem; /* 8px rounded corners */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Nice soft shadow */
+}
+
+/* --- Responsive styles --- */
+
+/* Medium devices and up (tablets) */
+@media (min-width: 768px) {
+  .grid {
+    flex-direction: row; /* Go side-by-side */
+    gap: 4rem;
+  }
+  
+  .content {
+    /* Align text to the left on larger screens */
+    text-align: left; 
+  }
+
+  .title {
+    font-size: 2.5rem; /* 40px */
+  }
+}

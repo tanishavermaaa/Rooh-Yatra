@@ -1,0 +1,86 @@
+/* src/components/Navbar.module.css */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  z-index: 50;
+  background-color: #f4f7c8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brand {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 700;
+  color: #111827; /* Dark gray */
+}
+
+.desktopMenu {
+  display: none; /* Hide on mobile */
+  align-items: center;
+  gap: 1.5rem; /* 24px */
+}
+
+.navLink {
+  color: #4B5563; /* Medium gray */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #2563eb; /* Blue */
+}
+
+.contactButton {
+  padding: 0.5rem 1.25rem; /* 8px 20px */
+}
+
+.mobileMenuButton {
+  display: block; /* Show on mobile */
+}
+
+.mobileMenuButton button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #111827;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+/* --- Responsive styles --- */
+
+/* Medium devices and up (tablets, etc.) */
+@media (min-width: 768px) {
+  .desktopMenu {
+    display: flex;
+  }
+  
+  .mobileMenuButton {
+    display: none;
+  }
+  
+  .mobileMenu {
+    display: none;
+  }
+}

@@ -1,0 +1,69 @@
+/* src/components/Hero.module.css */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  padding-top: 80px; /* Offset for navbar */
+  background-color: #f9fafb; /* Light gray fallback */
+  
+  /* For background image */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Uncomment this for BG image readability */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+} 
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+}
+
+.headline {
+  font-size: 2.5rem; /* 40px */
+  font-weight: 800;
+  line-height: 1.2;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #1656df; /* Blue */
+}
+
+.subheadline {
+  font-size: 1.125rem;
+  font-weight: 400; /* 18px */
+  color: #0c1a2f;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.heroButton {
+  padding: 0.875rem 2rem; /* 14px 32px */
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+/* --- Responsive styles --- */
+@media (min-width: 768px) {
+  .headline {
+    font-size: 3.75rem; /* 60px */
+  }
+  .subheadline {
+    font-size: 1.25rem; /* 20px */
+  }
+}
