@@ -4,7 +4,7 @@ This is a single-page responsive web application built with **React** and **CSS 
 
 The project's theme is a travel blog documenting a journey across India, aiming to inspire discovery and passion.
 
-**[🚀 View the Live Demo Here] : https://rooh-yatra.netlify.app/ **
+🚀 Live Demo Here : https://rooh-yatra.netlify.app/ 
 
 
 -----
