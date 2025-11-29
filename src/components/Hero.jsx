@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import styles from './Hero.module.css'; // Import Hero styles
+import styles from './Hero.module.css'; 
 import HeroBg from '../assets/r2.jpg';
 
 const Hero = () => {
@@ -9,7 +9,6 @@ const Hero = () => {
       className={styles.hero}
       style={{ backgroundImage: `url(${HeroBg})` }}
       
-      // style={{ backgroundImage: `url(${HeroBg})` }} // Uncomment for BG image
     >
       {/* <div className={styles.overlay}></div> */} {/* Uncomment for BG image overlay */}
       
@@ -31,7 +30,7 @@ const Hero = () => {
           href="#gallery"
           whileHover={{ scale: 1.05, y: -5 }}
           whileTap={{ scale: 0.95 }}
-          className={`button-primary ${styles.heroButton}`} // Use global button, add local tweaks
+          className={`button-primary ${styles.heroButton}`} 
         >
           Explore Our Journey
         </motion.a>
